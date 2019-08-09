@@ -88,10 +88,36 @@
                         margin-top: 30px
                         
                 form
-                    .redbox
-                        width: 585px
-                        height: 452px
-                        background: green
+                    width: 585px
+                    height: 452px
+                    background: green
+                    border-radius: 5px
+                    .form-container
+                        height: 100%
+                        display: grid
+                        grid-template-rows: 15% 65% 30%
+                        border-radius: 5px
+                        .form-header
+                            background: #dbdbdb
+                            display: flex 
+                            align-items: center 
+                            justify-content: center
+                            -webkit-border-top-left-radius: 5px
+                            -webkit-border-top-right-radius: 5px
+                            -moz-border-radius-topleft: 5px
+                            -moz-border-radius-topright: 5px
+                            border-top-left-radius: 5px
+                            border-top-right-radius: 5px
+                            .begining 
+                                color: #576366
+                                font-weight: 700
+                                margin-right: 5px
+                            .end
+                                color: #576366
+                                font-weight: 300
+                        .info 
+                            background: white
+
                         
             .benefits
                 color: black
@@ -131,6 +157,7 @@
         background: rgb(77,76,62)
         background: linear-gradient(0deg, rgba(77,76,62,1) 12%, rgba(131,129,136,1) 58%)
         opacity: .2
+         
         
 
 
