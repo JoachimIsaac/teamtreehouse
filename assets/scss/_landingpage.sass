@@ -1,7 +1,7 @@
 #top-section
     position: sticky
     top: 0
-    z-index: 10
+    // z-index: 10
     background: white
     
 
@@ -53,7 +53,7 @@
     .img-container
         height: auto
         position: relative
-        z-index: 1
+        // z-index: 5
         // margin: 5% 15% 5% 15%
         .background-img
             background-image: url('https://blog.eduonix.com/wp-content/uploads/2015/04/15-Most-Popular-Programming-Languages-You-Must-Learn-in-2015.png')
@@ -62,13 +62,14 @@
             background-attachment: fixed !important
             height: 670px
             filter: contrast(1.2)
-            z-index: 10
+        
+           
             .signup-area
                 display: flex
                 justify-content: center
                 align-items: center
                 padding-top: 70px
-                z-index: 10
+               
                 
                 .slogan
                     margin-right: 40px
@@ -92,13 +93,21 @@
                     height: 452px
                     background: green
                     border-radius: 5px
+                    
+                    
+                    
+                    
+                    
                     .form-container
                         height: 100%
                         display: grid
-                        grid-template-rows: 15% 65% 30%
+                        grid-template-rows: 15% 65% 20%
                         border-radius: 5px
+                        
+                        
                         .form-header
                             background: #dbdbdb
+                            height: 70px
                             display: flex 
                             align-items: center 
                             justify-content: center
@@ -117,6 +126,89 @@
                                 font-weight: 300
                         .info 
                             background: white
+                            display: flex 
+                            flex-direction: column
+                           
+                            .names
+                                padding-top: 30px
+                                padding-left: 30px
+                                display: flex 
+                                flex-direction: row
+                                .name1
+                                    width: 50%
+                                    span
+                                        color: #576366
+                                        font-weight: 700
+                                        margin-bottom: 10px
+                                .name2
+                                    width: 50%
+                                    span 
+                                        color: #576366
+                                        font-weight: 700
+                                input
+                                    display: block
+                                    height: 45px
+                                    width: 95%
+                                    border-radius: 5px
+                                    border: 2px solid #d4d9dd
+                                    background: rgba(20, 20, 20, 0.12)
+                                    margin-top: 7px
+                                    transition: all .2s ease-in-out
+                                    &:hover 
+                                        background: black
+                        
+                                    
+                                    
+                                   
+
+                                // .input-last
+                                //     display: block
+                                //     height: 45px
+                                //     width: 90%
+                                //     border-radius: 5px
+                                //     border: 2px solid #d4d9dd
+                                //     background: rgba(20, 20, 20, 0.12)
+                                // padding-top: 30px
+                                // color: #576366
+                                // font-weight: 700
+                            .email-container
+                                padding-top: 30px
+                                padding-left: 30px
+                                .email
+                                    color: #576366
+                                    font-weight: 700
+                                    margin-bottom: 10px
+                                input
+                                    display: block
+                                    height: 45px
+                                    width: 97%
+                                    border-radius: 5px
+                                    border: 2px solid #d4d9dd
+                                    background: rgba(20, 20, 20, 0.12)
+                                    margin-top: 7px
+                                    transition: all .2s ease-in-out
+                                    margin-bottom: 30px
+                            .checkbox-area
+                                padding-top: 10px
+                                padding-left: 30px
+                                color: #576366
+                                input
+                                    padding-right: 20px
+                                    width: 15px
+                                    height: 15px
+                                    border-radius: 10px
+                                    border: 10px solid #576366
+
+                           
+
+
+                                
+                                
+                                
+                                    
+                                
+                                    
+
 
                         
             .benefits
@@ -125,7 +217,7 @@
                 display: flex
                 justify-content: center
                 margin-top: 70px
-                z-index: 10
+               
                 span
                     margin-right: 20px
                     display: flex
