@@ -1,5 +1,5 @@
 #top-section
-    position: sticky
+    position: sticky !important
     top: 0
     z-index: 10
     background: white
@@ -50,10 +50,11 @@
                 
             
 #signup-section
+    z-index: 6
     .img-container
         height: auto
         position: relative
-        // z-index: 5
+        z-index: 9
         // margin: 5% 15% 5% 15%
         .background-img
             background-image: url('https://blog.eduonix.com/wp-content/uploads/2015/04/15-Most-Popular-Programming-Languages-You-Must-Learn-in-2015.png')
@@ -62,7 +63,7 @@
             background-attachment: fixed !important
             height: 670px
             filter: contrast(1.2)
-        
+            z-index: 8
            
             .signup-area
                 display: flex
@@ -77,7 +78,6 @@
                         color: black
                         font-weight: 900
                         font-size: 2.7rem
-                        
                         text-shadow: white 0px 0px 10px
                         
                         
@@ -91,9 +91,7 @@
                 form
                     width: 585px
                     height: 452px
-                    background: green
                     border-radius: 5px
-                    
                     
                     
                     
@@ -103,6 +101,9 @@
                         display: grid
                         grid-template-rows: 15% 65% 20%
                         border-radius: 5px
+                        
+                        
+                       
                         
                         
                         .form-header
@@ -117,10 +118,14 @@
                             -moz-border-radius-topright: 5px
                             border-top-left-radius: 5px
                             border-top-right-radius: 5px
+                            
+                            
                             .begining 
                                 color: #576366
                                 font-weight: 700
                                 margin-right: 5px
+                                
+                                
                             .end
                                 color: #576366
                                 font-weight: 300
@@ -129,17 +134,20 @@
                             display: flex 
                             flex-direction: column
                            
+                           
                             .names
-                                padding-top: 30px
-                                padding-left: 30px
+                                margin-top: 30px
+                                margin-left: 30px
                                 display: flex 
                                 flex-direction: row
                                 .name1
                                     width: 50%
+                                   
                                     span
                                         color: #576366
                                         font-weight: 700
                                         margin-bottom: 10px
+                                        
                                 .name2
                                     width: 50%
                                     span 
@@ -153,27 +161,16 @@
                                     border: 2px solid #d4d9dd
                                     background: rgba(20, 20, 20, 0.12)
                                     margin-top: 7px
-                                    transition: all .2s ease-in-out
-                                    &:hover 
-                                        background: black
-                        
+                                
+                                   
                                     
                                     
                                    
 
-                                // .input-last
-                                //     display: block
-                                //     height: 45px
-                                //     width: 90%
-                                //     border-radius: 5px
-                                //     border: 2px solid #d4d9dd
-                                //     background: rgba(20, 20, 20, 0.12)
-                                // padding-top: 30px
-                                // color: #576366
-                                // font-weight: 700
+                            
                             .email-container
-                                padding-top: 30px
-                                padding-left: 30px
+                                margin-top: 30px
+                                margin-left: 30px
                                 .email
                                     color: #576366
                                     font-weight: 700
@@ -186,14 +183,14 @@
                                     border: 2px solid #d4d9dd
                                     background: rgba(20, 20, 20, 0.12)
                                     margin-top: 7px
-                                    transition: all .2s ease-in-out
                                     margin-bottom: 30px
                             .checkbox-area
-                                padding-top: 10px
-                                padding-left: 30px
+                                margin-top: 10px
+                                margin-left: 30px
                                 color: #576366
+                                
                                 input
-                                    padding-right: 20px
+                                    margin-right: 20px
                                     width: 15px
                                     height: 15px
                                     border-radius: 10px
@@ -205,7 +202,7 @@
                             align-items: center
                             background: white
                             button
-                                padding: 20px 150px
+                                padding: 15px 150px
                                 border-radius: 5px
                                 background: #387bab
                                 color: white
@@ -213,8 +210,10 @@
                                 letter-spacing: 2px
                                 .fas
                                     color: white
-                                    font-size: 1.1rem
+                                    font-size: 1.5rem
                                     letter-spacing: 2px
+                                    margin-left: 10px
+                                    font-weight: 700
 
 
                            
