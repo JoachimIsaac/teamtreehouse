@@ -3,14 +3,7 @@
     top: 0
     z-index: 10
     background: white
-    @media only screen and (max-width: 1240px)
-        width: 100%
-    @media only screen and (max-width: 940px)
-        height: 100%
 
-    
-
-    
 
         
     nav
@@ -18,15 +11,15 @@
         justify-content: space-between
         align-items: center
         height: 70px
-        @media only screen and (max-width: 1240px)
-            width: 100%
+        
+        
         
         
         .img-container
             display: flex
             margin-left: 110px
             @media only screen and (max-width: 940px)
-                     display: none
+                display: none
             a
                 img
                     width: 150px
@@ -35,6 +28,7 @@
                         width: 150px
                         height: 62px
         .fas
+            display: none
             @media only screen and (max-width: 1240px)
                 display: none 
             @media only screen and (max-width: 940px)
@@ -43,6 +37,7 @@
                 font-size: 30px
         .img-container2
             margin-left: 150px
+            display: none
             @media only screen and (max-width: 1240px)
                 display: none
             @media only screen and (max-width: 940px)
@@ -58,14 +53,17 @@
                     
     .options
         display: flex
-        margin-right: 110px
+        margin-right: 100px
         @media only screen and (max-width: 940px)
-            margin-right: 15px
+            margin-right: 10px
         span
-            margin-left: 15px
+            margin-left: 10px
             font-size: .9rem
             font-family: sans-serif
             font-weight: 600
+            
+            
+                
             @media only screen and (max-width: 940px)
                 margin-left: 15px
                 font-size: 1rem
@@ -82,20 +80,20 @@
             &:nth-child(2) a
                 @media only screen and (max-width: 940px)
                      display: none
-                color: #7b8b8e
+                     color: #7b8b8e
                 &:hover
                     color: #595959
             &:nth-child(3) a 
-                color: #7b8b8e
+                color: #7BD795
                 &:hover
-                    color: #595959
+                    color: #33cc33
             &:nth-child(4) a
                 color: #7BD795
                 &:hover
                     color: #33cc33
             a 
                 text-decoration: none
-                padding: 22px 8px
+                padding: 20px 8px
     
                 
             
