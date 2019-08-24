@@ -11,6 +11,11 @@
         justify-content: space-between
         align-items: center
         height: 70px
+        .mobile-menu1
+            display: none
+            text-decoration: none
+
+     
         
         
         
@@ -42,6 +47,8 @@
                 display: none
             @media only screen and (max-width: 940px)
                 display: block
+            @media only screen and (max-width: 767px)
+                margin-left: 108px
             img 
                 width: 40px
                 height: 40px
@@ -71,20 +78,25 @@
                 font-weight: 600
 
             &:nth-child(1) a
-                @media only screen and (max-width: 940px)
-                     display: none
                 color: #7b8b8e
+                @media only screen and (max-width: 940px)
+                    display: none
+                
+                
                 &:hover
                     color: #595959
                  
             &:nth-child(2) a
+                color: #7b8b8e
                 @media only screen and (max-width: 940px)
-                     display: none
-                     color: #7b8b8e
+                    display: none
+                    color: #7b8b8e
                 &:hover
                     color: #595959
             &:nth-child(3) a 
                 color: #7BD795
+                @media only screen and (max-width: 767px)
+                    display: none
                 &:hover
                     color: #33cc33
             &:nth-child(4) a
@@ -146,6 +158,8 @@
                         margin-left: 20px
                     @media only screen and (max-width: 940px)
                         margin-bottom: 40px
+                    @media only screen and (max-width: 767px)
+                        margin-left: 44px
                         
                     
                                     
@@ -172,6 +186,9 @@
                     @media only screen and (max-width: 940px)
                         width: 90%
                         margin-right: 0px
+                    @media only screen and (max-width: 767px)
+                            width: 90%
+                            
                     
                     
                     
@@ -181,6 +198,7 @@
                         display: grid
                         grid-template-rows: 15% 65% 20%
                         border-radius: 5px
+                        
                         
                         
                        
@@ -213,6 +231,8 @@
                             background: white
                             display: flex 
                             flex-direction: column
+                            @media only screen and (max-width: 767px)
+                                padding-right: 20px
                            
                            
                             .names
@@ -296,6 +316,8 @@
                                     padding: 15px 100px
                                 @media only screen and (max-width: 940px)
                                     padding: 15px 200px
+                                @media only screen and (max-width: 767px)
+                                    padding: 14px 20px
                                     
                                 .fas
                                     color: white
@@ -323,6 +345,9 @@
                 display: flex
                 justify-content: center
                 margin-top: 70px
+                @media only screen and (max-width: 767px)
+                    flex-direction: column
+                    margin-bottom: 30px
                 
                
                 span
